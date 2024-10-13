@@ -15,7 +15,7 @@
                 color: white;
             }
 
-            div {
+            div.body1 {
                 background-color: black;
                 width: 500px;
                 padding-top: 10px;
@@ -25,16 +25,20 @@
                 margin: auto;
                 text-align: center;
             }
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                margin: auto;
-                padding: 10px;
-                background-color: rgb(255, 255, 255);
-                color: rgb(0, 0, 0);
-
+            
+            div.gallery {
+                margin: 20px;
+                float: left;
+                width: 180px;
                 
-            } 
+            }
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
 
         
             hr {
@@ -42,7 +46,7 @@
                 width: 50%;
             }
 
-            img {
+            img.profile-pic {
                 border-radius: 50%;
             }
 
@@ -76,7 +80,7 @@
 
             li a:hover {
                 background-color: rgb(46, 45, 49);
-                float:left;
+                
 
             }
 
@@ -108,7 +112,7 @@
     <li class="links"><a href="contactme.html">Contact</a></li>
     </ul>
     
-<div>
+    <div class="body1">
         <h3>Contact Me</h3>
         <ul>
             <li>"(050)-XXX-XX-XX"</li>
@@ -120,14 +124,6 @@
 
         <h3>Biography</h3>
         <p>I am a 3rd year IT student studying at ADA University. 
-        <hr>
-
-        <h3>Education</h3>
-     
-        <p>
-            <b>ADA University,</b> 2022-Present <br>-<i>Information Technologies, BSIT.</i> <br> <b>Lyceum named after Heydar Aliyev,</b> 2011-2022
-        </p>
-
         <hr>
 
         <h3>Languages</h3>
@@ -156,97 +152,48 @@
             <li>Fashion</li>
             <li>Design</li>
         </ul>
-        <hr>
+    
 
-        <h3>Schedule</h3>
-
-        <table>
-            <tr>
-                <td></td>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th>Saturday</th>
-                <th>Sunday</th>
-            </tr>
-            <tr>
-                <th>08:30</th>
-                <td>PDEV 2302</td>
-                <td>INFT 2302</td>
-                <td>PDEV 2302</td>
-                <td>INFT 2302</td>
-                <td>DNSC 3501</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>10:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>11:30</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>13:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th colspan="8">Noon</th>
-            </tr>
-            <tr>
-                <th>14:30</th>
-                <td>CSCI 2303</td>
-                <td></td>
-                <td>CSCI 2303</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>16:00</th>
-                <td>MIDS 2401</td>
-                <td></td>
-                <td>MIDS 2401</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>17:30</th>
-                <td>DSNC 3501</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-       
+        
     </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/art.jpeg">
+            <img src="images/art.jpeg" alt="Art" width="600" height="400">
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/music.jpeg">
+            <img src="images/music.jpeg" alt="Music" width="600" height="400">
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/forgallery1.jpeg">
+            <img src="images/forgallery1.jpeg" alt="Street" width="600" height="400">
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/forgallery4.jpeg">
+            <img src="images/forgallery4.jpeg" alt="Paris" width="600" height="400">
+        </a>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="images/ysl.jpeg">
+            <img src="images/ysl.jpeg" alt="YSL" width="600" height="400">
+        </a>
+    </div>
+    
+    <div class="gallery">
+        <a target="_blank" href="images/whitetulips.jpeg">
+            <img src="images/whitetulips.jpeg" alt="White Tulips" width="600" height="400">
+        </a>
+    </div>
+
+
     
 
         
